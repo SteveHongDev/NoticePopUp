@@ -12,6 +12,7 @@
 		4929C2C728BDC78000092DEA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4929C2C628BDC78000092DEA /* GoogleService-Info.plist */; };
 		4929C2CA28BDC7D500092DEA /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4929C2C928BDC7D500092DEA /* FirebaseAnalytics */; };
 		4929C2CC28BDC7D500092DEA /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 4929C2CB28BDC7D500092DEA /* FirebaseRemoteConfig */; };
+		4929C2CE28BDC8C400092DEA /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4929C2CD28BDC8C400092DEA /* RemoteConfigDefaults.plist */; };
 		49E18A0028BDC055000BEBCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E189FF28BDC055000BEBCC /* AppDelegate.swift */; };
 		49E18A0228BDC055000BEBCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E18A0128BDC055000BEBCC /* SceneDelegate.swift */; };
 		49E18A0428BDC055000BEBCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E18A0328BDC055000BEBCC /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		4929C2C228BDC56100092DEA /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
 		4929C2C328BDC56100092DEA /* NoticeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeViewController.xib; sourceTree = "<group>"; };
 		4929C2C628BDC78000092DEA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4929C2CD28BDC8C400092DEA /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
 		49E189FC28BDC055000BEBCC /* NoticePopUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoticePopUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49E189FF28BDC055000BEBCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49E18A0128BDC055000BEBCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				49E189FF28BDC055000BEBCC /* AppDelegate.swift */,
 				49E18A0128BDC055000BEBCC /* SceneDelegate.swift */,
 				49E18A0328BDC055000BEBCC /* ViewController.swift */,
+				4929C2CD28BDC8C400092DEA /* RemoteConfigDefaults.plist */,
 				49E18A0528BDC055000BEBCC /* Main.storyboard */,
 				49E18A0828BDC057000BEBCC /* Assets.xcassets */,
 				49E18A0A28BDC057000BEBCC /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4929C2CE28BDC8C400092DEA /* RemoteConfigDefaults.plist in Resources */,
 				49E18A0C28BDC057000BEBCC /* LaunchScreen.storyboard in Resources */,
 				49E18A0928BDC057000BEBCC /* Assets.xcassets in Resources */,
 				4929C2C728BDC78000092DEA /* GoogleService-Info.plist in Resources */,
